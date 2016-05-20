@@ -9,17 +9,28 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+     var number: Int = 0
+     @IBOutlet var Label: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.plus(number)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+   
+  
+    
+    @IBAction func plus( num : Int ) {
+        
+        
+        
+        
+    }
+    
 }
 
